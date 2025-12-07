@@ -58,7 +58,7 @@
 
   <table>
     <tr><td>1. Clone the repository</td></tr>
-    <tr><td><code>git clone https://github.com/MCDxAI/badge-forge.git</code></td></tr>
+    <tr><td><code>git clone https://github.com/48hour-solutions/badge-forge.git</code></td></tr>
     <tr><td><code>cd badge-forge</code></td></tr>
     <tr><td>2. Install dependencies</td></tr>
     <tr><td><code>npm install</code></td></tr>
@@ -215,10 +215,6 @@
   <p>
     <img src="https://github.com/user-attachments/assets/c5432cfa-9abc-4ad0-bcf3-0dd977813bfe" alt="BadgeForge Screenshot 4">
   </p>
-
-  <h2>License</h2>
-
-  <p>MIT License - feel free to use this project for personal or commercial purposes.</p>
 
   <h2>Acknowledgments</h2>
 
