@@ -1,0 +1,14 @@
+services:
+  badge-forge:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: badge-forge:latest
+    container_name: badge-forge
+    ports:
+      - "3102:3000"  # Change the LEFT number (host port) to expose on a different port
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
